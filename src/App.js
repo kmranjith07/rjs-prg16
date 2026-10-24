@@ -12,7 +12,7 @@ import Contacts from "./Contacts";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/rjs-p16' : ''}>
+<BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/rjs-prg16' : ''}>
       <div>
         <header>
           <h1>My React Website</h1>
